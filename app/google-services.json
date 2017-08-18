@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "864993436783",
+    "firebase_url": "https://shopmanager-c94e7.firebaseio.com",
+    "project_id": "shopmanager-c94e7",
+    "storage_bucket": "shopmanager-c94e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864993436783:android:61b92f8dc0f03fce",
+        "android_client_info": {
+          "package_name": "com.example.srinivas.shopmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864993436783-0q08tbhhm3s8edp0erd0ftaem6f492vv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.srinivas.shopmanager",
+            "certificate_hash": "2b2d868d700c1cbf9636e15ee8ddcf7cde180044"
+          }
+        },
+        {
+          "client_id": "864993436783-5ir38kql3svdbu5p67fc0c1h22eeai85.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPEt7K-RWOPaeQyS3E5IOG_HI_odQK6gM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864993436783-5ir38kql3svdbu5p67fc0c1h22eeai85.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
