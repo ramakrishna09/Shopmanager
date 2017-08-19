@@ -23,14 +23,14 @@
         android:id="@+id/btnRegistration"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="btnRegistration_Click"
-        android:text="Registration"
-        android:textColor="@color/common_google_signin_btn_text_dark_focused"
-        android:textSize="25sp"
         android:layout_above="@+id/btnLogin"
         android:layout_alignParentStart="true"
+        android:layout_marginBottom="68dp"
         android:layout_marginStart="76dp"
-        android:layout_marginBottom="68dp" />
+        android:onClick="btnRegistration_Click"
+        android:text="Click to Shoping"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="25sp" />
 
     <Button
         android:id="@+id/btnLogin"
@@ -40,10 +40,10 @@
         android:text="Login"
         android:textColor="@color/common_google_signin_btn_text_dark_focused"
         android:textSize="25sp"
-        android:layout_marginBottom="177dp"
+        android:layout_marginBottom="159dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignEnd="@+id/btnRegistration"
-        android:layout_marginEnd="44dp" />
+        android:layout_alignStart="@+id/btnRegistration"
+        android:layout_marginStart="47dp" />
 
 
 

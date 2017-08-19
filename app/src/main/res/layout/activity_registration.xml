@@ -11,53 +11,39 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Email Address:"
+        android:text="Enjoy Shoping with M Store"
         android:textSize="25dp"
         android:textColor="@color/common_google_signin_btn_text_dark_focused"
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true" />
 
-    <EditText
-        android:id="@+id/txtEmailRegistration"
-        android:layout_width="match_parent"
+    <Button
+        android:id="@+id/button_f"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/textView"
-        android:layout_marginTop="16dp" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/txtEmailRegistration"
-        android:layout_marginTop="20dp"
-        android:text="Password"
-        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="52dp"
+        android:onClick="Fruits"
+        android:text="Fruits"
         android:textColor="@color/common_google_signin_btn_text_dark_focused"
-        android:textSize="25dp" />
-
-    <EditText
-        android:id="@+id/txtPasswordRegistration"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/textView2"
-        android:layout_marginTop="34dp"
-        android:ems="10"
-        android:inputType="textPassword" />
+        android:textSize="25sp" />
 
     <Button
+        android:id="@+id/button_v"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Registration"
-        android:textSize="25dp"
+        android:layout_alignStart="@+id/button_f"
+        android:layout_below="@+id/button_f"
+        android:layout_marginTop="62dp"
+        android:onClick="Vegitables"
+        android:text="Vegitables"
         android:textColor="@color/common_google_signin_btn_text_dark_focused"
-        android:id="@+id/btnRegistrationUser"
-        android:onClick="btnRegistrationUser_Click"
-        android:layout_below="@+id/txtPasswordRegistration"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="118dp" />
+        android:textSize="25sp" />
+
+
+
 
 </RelativeLayout>
