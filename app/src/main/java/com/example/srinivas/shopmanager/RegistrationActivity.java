@@ -9,8 +9,6 @@ import android.view.View;
 
 public class RegistrationActivity extends AppCompatActivity {
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +27,11 @@ public class RegistrationActivity extends AppCompatActivity {
         Intent intent=new Intent(RegistrationActivity.this,VegitablesActivity.class);
         startActivity(intent);
         }
+     public void Grocerys(View view){
+         
+         Intent intent=new Intent(RegistrationActivity.this,GroceryActivity.class);
+         startActivity(intent);
+     }   
 
     }
 

@@ -24,7 +24,8 @@
         <activity android:name=".AddstoreActivity" />
         <activity android:name=".ViewstoreActivity" />
         <activity android:name=".FruitsActivity" />
-        <activity android:name=".VegitablesActivity"></activity>
+        <activity android:name=".VegitablesActivity" />
+        <activity android:name=".GroceryActivity"></activity>
     </application>
 
 </manifest>
